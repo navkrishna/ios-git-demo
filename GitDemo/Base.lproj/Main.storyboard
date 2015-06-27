@@ -81,4 +81,7 @@
             <point key="canvasLocation" x="1734" y="176"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="TTNLog" width="276" height="144"/>
+    </resources>
 </document>
