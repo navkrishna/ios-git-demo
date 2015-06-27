@@ -29,6 +29,7 @@
 {
     NSLog(@"Button Tapped");
     NSLog(@"%@",sender);
+    NSLog(@" Button tapped >>>>>>>>>>>> %@",sender);
 }
 
 
