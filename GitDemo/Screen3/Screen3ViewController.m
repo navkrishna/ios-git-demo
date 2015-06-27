@@ -30,9 +30,6 @@
     NSLog(@"Button Tapped");
     NSLog(@"%@",sender);
     NSLog(@" Button tapped >>>>>>>>>>>> %@",sender);
-
-    NSLog(@"Button Tapped");
-    NSLog(@"%@",sender);
 }
 
 
