@@ -8,6 +8,8 @@
 
 #import "ViewController.h"
 
+#import "Screen3ViewController.h"
+
 @interface ViewController ()
 
 @end
@@ -22,5 +24,16 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
 }
+
+
+- (IBAction)willPushScreen3ViewController:(id)sender {
+    
+    UIStoryboard *main = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    
+    UIViewController *viewController =  [main instantiateViewControllerWithIdentifier:@"Screen3ViewController"];
+    
+    [self.navigationController pushViewController:viewController animated:YES];
+}
+
 
 @end
