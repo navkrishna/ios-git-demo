@@ -235,6 +235,7 @@
 				4AE124CE1B3E60FF00AA7C21 /* ViewController.m in Sources */,
 				7528310C1B3E6DB400666D1E /* Screen4ViewController.m in Sources */,
 				4AE124CB1B3E60FF00AA7C21 /* AppDelegate.m in Sources */,
+				5C33DC931B3E6E7100DFB8A6 /* Screen1ViewController.m in Sources */,
 				4AE124C81B3E60FF00AA7C21 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
