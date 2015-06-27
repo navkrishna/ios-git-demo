@@ -39,7 +39,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="weu-W5-WVB" kind="presentation" id="TP3-2U-2LW"/>
+                                    <segue destination="weu-W5-WVB" kind="show" id="TP3-2U-2LW"/>
                                 </connections>
                             </button>
                         </subviews>
