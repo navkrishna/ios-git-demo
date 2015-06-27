@@ -15,7 +15,6 @@
 		4AE124D61B3E60FF00AA7C21 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4AE124D41B3E60FF00AA7C21 /* LaunchScreen.xib */; };
 		4AE124E21B3E60FF00AA7C21 /* GitDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AE124E11B3E60FF00AA7C21 /* GitDemoTests.m */; };
 		5C4462ED1B3E705900266B03 /* Screen3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C4462EB1B3E705900266B03 /* Screen3ViewController.m */; };
-		5C4462EE1B3E705900266B03 /* Screen3ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C4462EC1B3E705900266B03 /* Screen3ViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,7 +43,6 @@
 		4AE124E11B3E60FF00AA7C21 /* GitDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitDemoTests.m; sourceTree = "<group>"; };
 		5C4462EA1B3E705900266B03 /* Screen3ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Screen3ViewController.h; sourceTree = "<group>"; };
 		5C4462EB1B3E705900266B03 /* Screen3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Screen3ViewController.m; sourceTree = "<group>"; };
-		5C4462EC1B3E705900266B03 /* Screen3ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Screen3ViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,7 +128,6 @@
 			children = (
 				5C4462EA1B3E705900266B03 /* Screen3ViewController.h */,
 				5C4462EB1B3E705900266B03 /* Screen3ViewController.m */,
-				5C4462EC1B3E705900266B03 /* Screen3ViewController.xib */,
 			);
 			path = Screen3;
 			sourceTree = "<group>";
@@ -215,7 +212,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C4462EE1B3E705900266B03 /* Screen3ViewController.xib in Resources */,
 				4AE124D11B3E60FF00AA7C21 /* Main.storyboard in Resources */,
 				4AE124D61B3E60FF00AA7C21 /* LaunchScreen.xib in Resources */,
 				4AE124D31B3E60FF00AA7C21 /* Images.xcassets in Resources */,
