@@ -14,6 +14,7 @@
 		4AE124D31B3E60FF00AA7C21 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AE124D21B3E60FF00AA7C21 /* Images.xcassets */; };
 		4AE124D61B3E60FF00AA7C21 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4AE124D41B3E60FF00AA7C21 /* LaunchScreen.xib */; };
 		4AE124E21B3E60FF00AA7C21 /* GitDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AE124E11B3E60FF00AA7C21 /* GitDemoTests.m */; };
+		5C33DC931B3E6E7100DFB8A6 /* Screen1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C33DC921B3E6E7100DFB8A6 /* Screen1ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		4AE124DB1B3E60FF00AA7C21 /* GitDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AE124E01B3E60FF00AA7C21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4AE124E11B3E60FF00AA7C21 /* GitDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitDemoTests.m; sourceTree = "<group>"; };
+		5C33DC911B3E6E7100DFB8A6 /* Screen1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Screen1ViewController.h; sourceTree = "<group>"; };
+		5C33DC921B3E6E7100DFB8A6 /* Screen1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Screen1ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,7 @@
 		4AE124C41B3E60FF00AA7C21 /* GitDemo */ = {
 			isa = PBXGroup;
 			children = (
+				5C33DC901B3E6E6200DFB8A6 /* Screen1View Controller */,
 				4AE124C91B3E60FF00AA7C21 /* AppDelegate.h */,
 				4AE124CA1B3E60FF00AA7C21 /* AppDelegate.m */,
 				4AE124CC1B3E60FF00AA7C21 /* ViewController.h */,
@@ -117,6 +121,15 @@
 				4AE124E01B3E60FF00AA7C21 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5C33DC901B3E6E6200DFB8A6 /* Screen1View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5C33DC911B3E6E7100DFB8A6 /* Screen1ViewController.h */,
+				5C33DC921B3E6E7100DFB8A6 /* Screen1ViewController.m */,
+			);
+			path = "Screen1View Controller";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,6 +234,7 @@
 			files = (
 				4AE124CE1B3E60FF00AA7C21 /* ViewController.m in Sources */,
 				4AE124CB1B3E60FF00AA7C21 /* AppDelegate.m in Sources */,
+				5C33DC931B3E6E7100DFB8A6 /* Screen1ViewController.m in Sources */,
 				4AE124C81B3E60FF00AA7C21 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,6 +426,7 @@
 				4AE124E71B3E60FF00AA7C21 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4AE124E81B3E60FF00AA7C21 /* Build configuration list for PBXNativeTarget "GitDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +435,7 @@
 				4AE124EA1B3E60FF00AA7C21 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
