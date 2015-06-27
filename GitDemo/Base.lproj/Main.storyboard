@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6724" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6711"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Unknown constraint types" minToolsVersion="5.1"/>
     </dependencies>
     <scenes>
         <!--Navigation Controller-->
@@ -43,12 +44,21 @@
                                     <segue destination="weu-W5-WVB" kind="show" id="TP3-2U-2LW"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bRp-qI-HQh">
+                                <rect key="frame" x="137" y="163" width="46" height="30"/>
+                                <state key="normal" title="Button4">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Yt1-wm-Bgo" kind="show" id="UZO-zW-15m"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="kGv-mx-Z5S" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="E1J-0N-gJu"/>
-                            <constraint firstItem="kGv-mx-Z5S" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="eoJ-NX-Fhj"/>
-                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="kGv-mx-Z5S" secondAttribute="bottom" constant="20" id="i9O-uV-72y"/>
+                            <constraint firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="E1J-0N-gJu"/>
+                            <constraint firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="eoJ-NX-Fhj"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondAttribute="bottom" constant="20" id="i9O-uV-72y"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Vdk-ur-2p5"/>
@@ -121,10 +131,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0VP-r7-IFB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="711" y="322"/>
+            <point key="canvasLocation" x="582" y="435"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="TTNLog" width="276" height="144"/>
-    </resources>
 </document>
